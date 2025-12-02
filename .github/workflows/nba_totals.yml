@@ -33,7 +33,7 @@ jobs:
             any::janitor
             any::ggplot2
 
-     - name: Run scrape script
+      - name: Run scrape script
         run: Rscript R/scrape_nba_data.R
 
       - name: Run clean script
