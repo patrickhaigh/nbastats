@@ -32,6 +32,8 @@ jobs:
             any::lubridate
             any::janitor
             any::ggplot2
+            any::purrr
+            any::tibble
 
       - name: Run scrape script
         run: Rscript R/scrape_nba_data.R
